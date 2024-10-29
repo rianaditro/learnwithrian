@@ -14,13 +14,14 @@ Welcome to the Learn With Rian Aditro repository! This is a web-based educationa
   - Ethical scraping practices
   - Data processing techniques
   - Many more..
-![module](static/assets/images/github/module.png)
 - **What Inside Module**:
   - Explanation each topic and sub topic
   - Class activity
   - Homework
   - Additional resource
   - Resource to more advanced topic
+
+![module](static/assets/images/github/module.png)
 
 ## Upcoming Courses
 
