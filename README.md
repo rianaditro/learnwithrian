@@ -5,6 +5,7 @@ Welcome to the Learn With Rian Aditro repository! This is a web-based educationa
 ## Current Course
 
 ### Python Web Scraping
+![Homepage](static/assets/images/github/homepage.png)
 - **Description**: Dive into the world of web scraping using Python! This course covers essential techniques for extracting data from websites, processing it, and applying it to real-world applications.
 - **What You Will Learn**:
   - Core concepts of web scraping
@@ -12,6 +13,14 @@ Welcome to the Learn With Rian Aditro repository! This is a web-based educationa
   - Scraping dynamic content with Selenium
   - Ethical scraping practices
   - Data processing techniques
+  - Many more..
+  ![module](static/assets/images/github/module.png)
+- **What Inside Module**:
+  - Explanation each topic and sub topic
+  - Class activity
+  - Homework
+  - Additional resource
+  - Resource to more advanced topic
 
 ## Upcoming Courses
 
