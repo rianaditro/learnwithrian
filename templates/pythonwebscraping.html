@@ -1,0 +1,40 @@
+{% extends "index.html" %}
+
+{% block content %}
+<main role="main">
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1>Python Web Scraping</h1>
+            <p class="lead text-muted"><br>In this course, you'll dive into the exciting world of web scraping using Python! Learn how to extract valuable data from websites, process it efficiently, and use it for real-world applications. Whether you're interested in gathering information for research, building datasets for analysis, or automating data collection, this class will equip you with the skills to do so.</p>
+            <p><a class="btn btn-primary" href="https://www.instagram.com/rian_aditro">Ask for one-on-one mentoring</a></p>
+
+        </div>
+    </section>
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row">
+
+            {% for course in data %}
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm"><img class="bd-placeholder-img" width="100%" height="225" src="{{ course.image }}">
+                        <div class="card-body">
+                            <p class="card-text">{{ course.description }}</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <!-- Start: view | edit button -->
+                                <div class="btn-group">
+                                    <a href="{{ url_for('open_course', filepath=course.filepath)}}" class="btn btn-sm btn-outline-secondary">Learn it now</a>
+                                </div>
+                                <!-- End: view | edit button -->
+                                <small>120 min</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
