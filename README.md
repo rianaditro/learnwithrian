@@ -1,6 +1,9 @@
 # Learn With Rian Aditro
+https://learnwithrian.vercel.app/
 
 Welcome to the Learn With Rian Aditro repository! This is a web-based educational platform designed to provide users with a variety of programming courses. Our goal is to make learning accessible and enjoyable for everyone, regardless of their skill level.
+
+You can check our current live version here: [https://learnwithrian.vercel.app/](https://learnwithrian.vercel.app/)
 
 ## Current Course
 
